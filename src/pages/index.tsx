@@ -36,6 +36,7 @@ const Index = () => {
           width={200}
           height={70}
           quality={100}
+          className="w-[160px] h-[45px] mt-2 md:w-[200px] md:h-[60px]"
         ></Image>
       </div>
       <BiMenuAltRight  className="md:hidden text-white text-end text-2xl mr-4"  onClick={() => setNavbar((prev) => !prev)}/>
