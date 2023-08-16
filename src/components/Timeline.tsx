@@ -2,7 +2,7 @@ import Hepta from "./hepta";
 
 const Timeline = () => {
   return (
-    <div className="my-12 flex flex-col pr-[140px] md:pr-0 md:flex-row w-[95vw] lg:w-[80vw] items-center justify-center">
+    <div className="my-12 flex flex-col pr-[155px] md:pr-0 md:flex-row w-[95vw] lg:w-[80vw] items-center justify-center">
         <div className="flex flex-col md:flex-row items-center">
           <div className="relative">
             <Hepta />
