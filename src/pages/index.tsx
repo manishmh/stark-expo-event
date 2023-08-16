@@ -89,7 +89,7 @@ const Index = () => {
   </div>
   <div id="timelineDiv" className="h-8 w-full"></div>
   <div  className="px-8 py-12 border-4 border-[#0070C5] mt-16 mb-48 md:mt-32 flex flex-col justify-center items-center shadow-aboutBanner rounded-xl mx-4 md:mx-10">
-    <div className="md:flex block justify-center text-center items-center">
+    <div className="mb-10 md:flex block justify-center text-center items-center">
       <span className="text-3xl  font-bold md:text-6xl flex-shrink-0 bg-heroText text-transparent bg-clip-text">TIMELINE</span>
       <h2 className="text-white absolute right-1/2 mt-2 md:mt-0 translate-x-1/2 md:translate-x-0 md:right-[60px] lg:right-[100px] lg:text-xl xl:text-2xl 2xl:text-3xl">Join Us At<br/>campus-14 seminar hall</h2>
     </div>
