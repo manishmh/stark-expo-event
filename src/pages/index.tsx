@@ -1,4 +1,5 @@
 'use client'
+
 import Banner from "@/components/Banner";
 import Timeline from "@/components/Timeline";
 import Image from "next/image";
@@ -8,7 +9,7 @@ import { BiMenuAltRight } from 'react-icons/bi'
 
 const OFFSET = 66
 
-const index = () => { 
+const Index = () => { 
   const [navbar, setNavbar] = useState(false);
   const [showBackground, setShowBackground] = useState(false);
   useEffect(() => {
@@ -57,7 +58,7 @@ const index = () => {
         <span className="border-b-2 border-blue-400 w-full border-dashed"></span>
       </div>
       <div className="text-4xl md:text-6xl mt-4 text-white ">Stark Expo : </div>
-      <p className="px-6 md:px-0 md:w-9/12 mt-6 text-white text-center">Your Portal to Marvel-Infused Tech Exploration! Here, you'll learn about various technical domains from experts, connect with like-minded peers and craft meaningful solutions by participating in our challenging ideathon providing you with an immersive experience that kindles your passion for innovation and propels you towards a future of limitless possibilities. And this is not all! The best ideas will be selected and awarded with exciting prizes and certificates!</p>
+      <p className="px-6 md:px-0 md:w-9/12 mt-6 text-white text-center">Your Portal to Marvel-Infused Tech Exploration! Here, you&apos;ll learn about various technical domains from experts, connect with like-minded peers and craft meaningful solutions by participating in our challenging ideathon providing you with an immersive experience that kindles your passion for innovation and propels you towards a future of limitless possibilities. And this is not all! The best ideas will be selected and awarded with exciting prizes and certificates!</p>
     </div>
    <Banner /> 
     <div id="aboutDiv" className="h-8 w-full"></div>
@@ -99,4 +100,4 @@ const index = () => {
   )
 }
 
-export default index;
+export default Index;
