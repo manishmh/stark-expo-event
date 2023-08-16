@@ -25,7 +25,7 @@ const Banner = () => {
           <div className="text-center text-4xl md:text-5xl font-bold text-white bannerText">
             27 August 2023<br/>Stark Expo:
           </div>
-          <Link href="https://mlsa.unknownclub.me/" target="_blank">
+          <Link href="https://registrations-mlsa.vercel.app/" target="_blank">
             <button className="bg-button rounded-full text-white px-2 sm:px-4 py-0.5 md:py-1">Register Now</button>
           </Link>
         </div>
