@@ -54,21 +54,20 @@ const Index = () => {
         <span className="text-3xl font-bold md:text-6xl flex-shrink-0 bg-heroText text-transparent bg-clip-text heroText pb-2">MLSA Brings You</span>
         <span className="border-b-2 border-blue-400 w-full border-dashed"></span>
       </div>
-      {/* <div className="text-4xl md:text-6xl mt-4 text-white ">Stark Expo : </div> */}
       <Image
         src="/stark_expo.png" 
         alt="stark expo logo"
-        width={200}
-        height={80}
+        width={300}
+        height={200}
         quality={100}
         className="my-6"
       ></Image>
-      <p className="px-6 md:px-0 md:w-9/12 mt-6 text-white text-center">This expedition is about you and your favourite superhero against the real-world problems.<br/> You will be called upon to as the Master of Prompt Engineering!</p>
+      <p className="px-6 md:px-0 md:w-9/12 mt-6 text-xl text-white text-center">This expedition is about you and your favourite superhero against the real-world problems.<br/> You will be called upon to as the Master of Prompt Engineering!</p>
     </div>
    <Banner /> 
     <div id="aboutDiv" className="h-8 w-full"></div>
   <div className="text-white mt-16 mx-4 md:mx-10 relative shadow-aboutBanner bg-[#d9d9d9]/10 rounded-xl border-4 text-center border-[#0070C5]" id="aboutDiv">
-    <h1 className="mt-8 text-3xl font-semibold">ABOUT</h1>
+    <h1 className="mt-8 text-3xl md:text-6xl font-bold bg-clip-text text-transparent bg-heroText">ABOUT</h1>
     <p className="mx-4 text-xl md:mx-28 my-8 md:my-16 md:text-3xl">Stark Expo merges technology and innovation, letting participants explore tech domains of their choice through a comprehensive roadmap along with the introduction of prompt engineering.</p>
     <p className="mx-4 text-xl md:mx-28 my-8 md:my-16 md:text-3xl z-2">Participants will receive a problem statement and the task will be to ideate effective solutions that address the given challenge effectively using a PPT presentation.</p>
     <div className="flex justify-between absolute bottom-0 w-full">
@@ -96,7 +95,7 @@ const Index = () => {
     </div>
     <Timeline />
     <Link href="https://registrations-mlsa.vercel.app/" target="_blank">
-      <button className="text-white mt-8 md:mt-[200px] text-3xl bg-[#06174f] px-10 py-2 rounded-tr-3xl rounded-bl-3xl">REGISTER</button>
+      <button className="text-white mt-8 md:mt-[200px] text-3xl md:text-4xl bg-[#06174f] px-12 py-2 md:py-3 hover:bg-[#162247] rounded-tr-3xl rounded-bl-3xl">REGISTER</button>
     </Link>
   </div>
   </>
